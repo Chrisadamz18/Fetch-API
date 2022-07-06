@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   display: flex; 
+   justify-content: center;
+
+}
+.user{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 10px;
+}
+.user img{
+    border:1px dotted black;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.user h2{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.user .email a{
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.user .email a:hover{
+    color:aqua;
+}
